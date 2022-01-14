@@ -1,0 +1,39 @@
+{
+  "name": "next-js-base",
+  "version": "0.0.0",
+  "description": "",
+  "author": "cjpollok",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/cjpollok/next-js-base#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjpollok/next-js-base.git"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint:styles": "stylelint src/**/*.scss",
+    "lint:typescript": "eslint src --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "1.46.0"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.8",
+    "@types/react": "17.0.38",
+    "@typescript-eslint/eslint-plugin": "5.9.0",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "prettier": "2.5.1",
+    "stylelint": "14.2.0",
+    "stylelint-config-standard-scss": "3.0.0",
+    "typescript": "4.5.4"
+  }
+}
