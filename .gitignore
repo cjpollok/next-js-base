@@ -2,6 +2,8 @@
 /node_modules
 /.pnp
 .pnp.js
+
+# Remove this from the ignore file when using this repo for another project
 package-lock.json
 
 # testing
