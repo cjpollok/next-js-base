@@ -32,6 +32,7 @@ npm run dev
 - [Eslint](https://eslint.org) - Linting rules with [Next.js](https://nextjs.org/docs/basic-features/eslint#eslint-config), [Prettier](https://github.com/prettier/eslint-plugin-prettier) and [TypeScript](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin)
 - [Stylelint](https://stylelint.io) - Linting with the [standard shareable SCSS config](https://github.com/stylelint-scss/stylelint-config-standard-scss)
 - [EditorConfig](https://editorconfig.org) - Consistent coding styles across various editors and IDEs
+- [Husky](https://typicode.github.io/husky) - Pre-commit Git hook fixing lint issues with [lint-staged](https://github.com/okonet/lint-staged)
 
 ### Redux (redux branch)
 
