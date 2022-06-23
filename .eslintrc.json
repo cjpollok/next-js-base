@@ -4,6 +4,12 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
   ],
+  "overrides": [
+    {
+      "files": ["**/?(*.)test.ts?(x)"],
+      "extends": ["plugin:testing-library/react"]
+    }
+  ],
   "plugins": [],
   "rules": {
     "prefer-const": "error"
