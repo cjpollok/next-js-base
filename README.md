@@ -32,13 +32,14 @@ npm run dev
 - [React Testing Library](https://github.com/testing-library/react-testing-library) - React DOM testing utilities
 - [user-event](https://github.com/testing-library/user-event) - Simulate real events that would happen in the browser
 
-### Linting
+### Tooling
 
 - [Prettier](https://prettier.io) - Opinionated code formatter
 - [Eslint](https://eslint.org) - Linting rules with [Next.js](https://nextjs.org/docs/basic-features/eslint#eslint-config), [TypeScript](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin), [Prettier](https://github.com/prettier/eslint-plugin-prettier) and [React Testing Library](https://github.com/testing-library/eslint-plugin-testing-library)
 - [Stylelint](https://stylelint.io) - Linting with the [standard shareable SCSS config](https://github.com/stylelint-scss/stylelint-config-standard-scss)
 - [EditorConfig](https://editorconfig.org) - Consistent coding styles across various editors and IDEs
 - [Husky](https://typicode.github.io/husky) - Pre-commit Git hook fixing lint issues with [lint-staged](https://github.com/okonet/lint-staged)
+- [Node Version Manager](https://github.com/nvm-sh/nvm) - Consistent version of node
 
 ### Redux (redux branch)
 
