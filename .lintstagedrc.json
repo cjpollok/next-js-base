@@ -1,4 +1,4 @@
 {
-  "*.scss": ["stylelint --fix"],
+  "*.styles.ts": ["stylelint --fix"],
   "*.{ts,tsx}": ["eslint --fix"]
 }

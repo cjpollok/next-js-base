@@ -1,10 +1,11 @@
 import type { AppProps } from 'next/app'
 
-import '@/styles/normalize.scss'
-import '@/styles/main.scss'
+import ThemeProvider from '@/component-library/ThemeProvider'
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
-  <Component {...pageProps} />
+  <ThemeProvider>
+    <Component {...pageProps} />
+  </ThemeProvider>
 )
 
 export default MyApp
