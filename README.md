@@ -28,6 +28,7 @@ npm run dev
 - Remove `package-lock.json` from the `.gitignore` file
 - Specify a new project name in the `package.json` and document title element
 - Specify a new custom domain for local development instead of `custom-domain`
+- Remove the disallow all from the `robots.txt` when ready to go live
 
 ## Built With
 
