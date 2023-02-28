@@ -6,17 +6,28 @@ A Next.js setup for use as the base of other projects.
 
 ### Installation
 
-Install all dependencies from the CLI:
+1. Install all dependencies from the CLI:
 ```sh
 npm install
 ```
 
+2. Add the following line to your `etc/hosts` file to enable a custom local domain (on Mac `/etc/hosts` or on Windows `C:/Windows/System32/drivers/etc/hosts`):
+```bash
+127.0.0.1 custom-domain.local
+```
+
 ### Development
 
-The application can be run locally with hot reloading at `http://localhost:3000`:
+The application can be run locally with hot reloading at `http://custom-domain.local:3000`:
 ```sh
 npm run dev
 ```
+
+### Starting a New Project
+
+- Remove `package-lock.json` from the `.gitignore` file
+- Specify a new project name in the `package.json` and document title element
+- Specify a new custom domain for local development instead of `custom-domain`
 
 ## Built With
 
